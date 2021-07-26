@@ -1,6 +1,6 @@
 {
 	"name": "Location Tracking MRE",
 	"author": "Eric Young",
-	"repositoryUrl": "",
+	"repositoryUrl": "https://github.com/EricSebYoung/Location-Tracking-MRE",
 	"optionalPermissions": ["user-interaction"]
 }
