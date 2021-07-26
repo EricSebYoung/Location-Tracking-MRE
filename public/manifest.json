@@ -1,0 +1,6 @@
+{
+	"name": "Location Tracking MRE",
+	"author": "Eric Young",
+	"repositoryUrl": "",
+	"optionalPermissions": ["user-interaction"]
+}
