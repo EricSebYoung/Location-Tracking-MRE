@@ -22,7 +22,7 @@ export class UserTrackers {
 			position: { x: 0, y: 0, z: 0 }, 
 			rotation: {x: 0, y: 0, z: 0, w: 0}
 		}
-		const actor = CreateActorFromMesh(this.app, user.name, mesh, transform);
+		const actor = CreateActorFromMesh(this.app, user.id.toString(), mesh, transform);
 		actor.attach(user, 'hips');
 		this.locators.set(userId, actor);
 	}

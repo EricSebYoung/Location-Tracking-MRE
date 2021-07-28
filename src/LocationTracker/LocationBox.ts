@@ -254,7 +254,7 @@ export class LocationBox {
 		const userList: MRE.User[] = this.app.context.users;
 
 		for(const loggedInUser of userList) {
-			if (loggedInUser.name === user) {
+			if (loggedInUser.id.toString() === user) {
 				exists = true;
 				break;
 			}
